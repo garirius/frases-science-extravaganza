@@ -1,0 +1,29 @@
+p {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 40px;
+  margin: 0px;
+
+  text-shadow:         0px 0px 6px black;
+  -moz-text-shadow:    0px 0px 6px black;
+  -webkit-text-shadow: 0px 0px 6px black;
+
+  line-height: 65px;
+}
+
+#bateria {
+  display: none;
+}
+
+@keyframes movimiento {
+  from {top: 0px;}
+  to {top: -65px;}
+}
+
+.animated {
+  position: relative;
+  top: 0px;
+  animation-name: movimiento;
+  animation-duration: 1s;
+}
