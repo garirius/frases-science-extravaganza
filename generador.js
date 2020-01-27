@@ -1,4 +1,4 @@
-const time = 2000;
+const time = 3000;
 
 setInterval(function(){
   const bateria = document.getElementById("bateria"),  frase = document.getElementById("showing");
